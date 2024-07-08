@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+div.container {
+  display: inline-block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 70px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.total
+{
+  font-size:2rem;
+  font-weight:bold;
+}
+.total-val
+{
+  font-size:2rem;
+  border: 10
+}
+
+#response{
+  display: none;
+}
+
+#rectangular {
+  -webkit-clip-path: inset(100px 10px 30px 10px);
+  clip-path: inset(10px 10px 30px 10px);
+}
